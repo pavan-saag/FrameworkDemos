@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA['Selenium WebDriver' Product Search in 'Books' Category Test is Successful...]]>
+    </line>
+    <line>
+      <![CDATA['Handmade' Product Search in 'Crafts' Category Test is Successful...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-14T11:29:08 IST" name="Default suite" finished-at="2024-06-14T11:29:18 IST" duration-ms="9343">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T11:29:08 IST" name="Default test" finished-at="2024-06-14T11:29:18 IST" duration-ms="9343">
+      <class name="com.saag.DDFTestCases.NewTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.saag.DDFTestCases.NewTest@5542c4ed]" started-at="2024-06-14T11:28:56 IST" name="startUp" finished-at="2024-06-14T11:29:08 IST" duration-ms="12765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="catSearch(java.lang.String,java.lang.String)[pri:0, instance:com.saag.DDFTestCases.NewTest@5542c4ed]" started-at="2024-06-14T11:29:09 IST" name="catSearch" data-provider="ebayData" finished-at="2024-06-14T11:29:13 IST" duration-ms="3964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium WebDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA['Selenium WebDriver' Product Search in 'Books' Category Test is Successful...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- catSearch -->
+        <test-method signature="catSearch(java.lang.String,java.lang.String)[pri:0, instance:com.saag.DDFTestCases.NewTest@5542c4ed]" started-at="2024-06-14T11:29:13 IST" name="catSearch" data-provider="ebayData" finished-at="2024-06-14T11:29:18 IST" duration-ms="4590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crafts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Handmade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA['Handmade' Product Search in 'Crafts' Category Test is Successful...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- catSearch -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.saag.DDFTestCases.NewTest@5542c4ed]" started-at="2024-06-14T11:29:18 IST" name="shutDown" finished-at="2024-06-14T11:29:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.saag.DDFTestCases.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
